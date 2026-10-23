@@ -16,6 +16,7 @@ export const nav = [
 ];
 
 export const social = [
+  { label: "Instagram", href: "https://www.instagram.com/avneel._.singh/" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/avneelsingh/" },
   { label: "GitHub", href: "https://github.com/avneelsingh/" },
   { label: "LeetCode", href: "https://leetcode.com/u/avneelsingh/" },
@@ -24,7 +25,7 @@ export const social = [
 
 export const stats = [
   { number: "8.75", label: "B.Tech CGPA" },
-  { number: "8.3", label: "M.Tech SGPA through semester 2" },
+  { number: "8.3", label: "M.Tech SGPA till Semester 2" },
   { number: "98%", label: "Class 12 · District Topper" },
   { number: "1,105", label: "GATE 2025 · All India Rank" },
   { number: "6,696", label: "GATE 2024 · All India Rank" },
