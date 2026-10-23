@@ -3,7 +3,7 @@ export const profile = {
   role: "M.Tech Computer Science · IIT Bhubaneswar",
   email: "avneelsingh237@gmail.com",
   phone: "+91 8005459319",
-  resumeUrl: "https://drive.google.com/file/d/1jL1DFWUw_4nBFJNJ4HmXM7qTfyQSgk1H/view?usp=sharing",
+  resumeUrl: "https://drive.google.com/file/d/1Hky5J2IhozqQIbRzEkwBDa4NGnmSXnrA/view?usp=sharing",
   location: "Ghazipur, Uttar Pradesh, India",
   summary:
     "Computer Science postgraduate at IIT Bhubaneswar interested in software engineering, data-driven systems, and practical AI/ML. I enjoy turning technical ideas into useful, well-crafted software.",
