@@ -4,7 +4,7 @@ A 🌙 minimal, dark, and responsive portfolio built with **React, TypeScript, V
 
 ## 🌐 Live Portfolio
 
-**Website:** [Visit My Portfolio](https://your-portfolio-url.com)
+**Website:** [Visit My Portfolio](https://avneel-portfolio.netlify.app/)
 
 ## ✨ Features
 
