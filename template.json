@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "kind": "website",
+  "slug": "avneel-singh-developer-portfolio",
+  "title": "Avneel Singh — Developer Portfolio",
+  "summary": "A premium minimal dark portfolio for Avneel Singh, a Computer Science postgraduate focused on software engineering, web development, and practical AI/ML.",
+  "category": "Portfolio",
+  "prompt": "Create a premium minimal dark portfolio for Avneel Singh, an M.Tech Computer Science student at IIT Bhubaneswar. Use a charcoal canvas, high-contrast typography, a restrained lime accent, generous spacing, responsive project cards, accessible navigation, subtle transitions, reduced-motion support, and sections for selected work, education, skills, and contact. Keep all academic details and project claims factual. Use a clear project filter and a contact flow that explains it opens an email draft rather than claiming to send mail directly.",
+  "brief": "site",
+  "min_plan": "free",
+  "thumbnail": "public/og-image.jpg"
+}

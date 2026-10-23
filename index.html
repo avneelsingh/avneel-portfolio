@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111214" />
+    <meta name="color-scheme" content="dark light" />
+    <script>
+      (() => {
+        const root = document.documentElement;
+        const themeColor = document.querySelector('meta[name="theme-color"]');
+        try {
+          const savedTheme = window.localStorage.getItem("portfolio-theme");
+          const theme = savedTheme === "light" ? "light" : "dark";
+          root.dataset.theme = theme;
+          root.style.colorScheme = theme;
+          if (themeColor) themeColor.content = theme === "dark" ? "#111214" : "#f7f8f5";
+        } catch {
+          root.dataset.theme = "dark";
+          root.style.colorScheme = "dark";
+          if (themeColor) themeColor.content = "#111214";
+        }
+      })();
+    </script>
+
+    <title>Avneel Singh — Software &amp; Computer Science</title>
+    <meta
+      name="description"
+      content="Portfolio of Avneel Singh, M.Tech Computer Science student at IIT Bhubaneswar, showcasing software development, web projects, and applied AI/ML work."
+    />
+    <meta name="author" content="Avneel Singh" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Avneel Singh — Software &amp; Computer Science" />
+    <meta
+      property="og:description"
+      content="Software development, web projects, and applied AI/ML by Avneel Singh."
+    />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:site_name" content="Avneel Singh" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Avneel Singh — Software &amp; Computer Science" />
+    <meta
+      name="twitter:description"
+      content="Software development, web projects, and applied AI/ML by Avneel Singh."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.bunny.net" crossorigin />
+    <link
+      href="https://fonts.bunny.net/css?family=fraunces:400,500,600,600i,700|general-sans:400,500,600"
+      rel="stylesheet"
+    />
+
+    <script id="person-schema" type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Avneel Singh",
+        "jobTitle": "M.Tech Computer Science Student",
+        "sameAs": [
+          "https://www.linkedin.com/in/avneelsingh/",
+          "https://github.com/avneelsingh/",
+          "https://leetcode.com/u/avneelsingh/",
+          "https://codolio.com/profile/avneelsingh"
+        ]
+      }
+    </script>
+    <script>
+      (() => {
+        const pageUrl = new URL(window.location.href);
+        pageUrl.hash = "";
+        pageUrl.search = "";
+        const canonical = document.querySelector('link[rel="canonical"]');
+        const ogUrl = document.querySelector('meta[property="og:url"]');
+        const ogImage = document.querySelector('meta[property="og:image"]');
+        const twitterImage = document.querySelector('meta[name="twitter:image"]');
+        if (canonical) canonical.href = pageUrl.href;
+        if (ogUrl) ogUrl.content = pageUrl.href;
+        const imageUrl = new URL("/og-image.jpg", window.location.origin).href;
+        if (ogImage) ogImage.content = imageUrl;
+        if (twitterImage) twitterImage.content = imageUrl;
+        const schema = document.getElementById("person-schema");
+        if (schema) {
+          const data = JSON.parse(schema.textContent || "{}");
+          data.url = window.location.origin;
+          schema.textContent = JSON.stringify(data);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "Avneel Singh — Developer Portfolio",
+  "short_name": "Avneel",
+  "description": "Portfolio of Avneel Singh, Computer Science postgraduate and software developer.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111214",
+  "theme_color": "#111214",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
