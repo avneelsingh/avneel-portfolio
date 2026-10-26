@@ -60,7 +60,7 @@ export const projects = [
       "Built interactive learner and creator modes with question practice, answer checking, XP tracking, and learning progress analytics.",
     ],
     live: "https://prepyproo.web.app/",
-    github: "https://github.com/avneelsingh/Prep-Planner",
+    github: "https://github.com/avneelsingh/PrepPro",
   },
   {
     title: "Recommender System for Reuse and Recycling",
